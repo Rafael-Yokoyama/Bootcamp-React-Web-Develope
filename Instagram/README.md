@@ -13,9 +13,10 @@ Consegui aumentar as minhas habilidades relacionados ao estudo de responsividade
 
 
 ## Antevisão 💻📱
-![](Instagram\img\gif.foto.gif)
+![](https://github.com/Rafael-Yokoyama/Bootcamp-React-Web-Develope/blob/master/Instagram/img/gif.foto.gif)
 
-<center><img src="Instagram\img\mobile_imagem.PNG"></center>
+<center><img src="https://github.com/Rafael-Yokoyama/Bootcamp-React-Web-Develope/blob/master/Instagram/img/mobile_imagem.PNG"></center>
+
 
  
 
