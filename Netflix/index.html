@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,75 +13,129 @@
 
 
     <title>Clone Netflix</title>
-    
+
 </head>
+
 <body>
     <header>
-       <div class="container">
-           <h2 class="logo">  NETFLIX </h2>
-           <nav>
-              <a href class="inicio-destaque">Ínicio</a>
-              <a href="">Séries</a>
-              <a href="">Filmes</a>
-              <a href="">Bombando</a>
-              <a href="">Minha Lista</a>
-           </nav>
-       </div>
+        <div class="container">
+            <h2 class="logo"> NETFLIX </h2>
+            <nav>
+                <a href class="inicio-destaque">Ínicio</a>
+                <a href="">Séries</a>
+                <a href="">Filmes</a>
+                <a href="">Bombando</a>
+                <a href="">Minha Lista</a>
+            </nav>
+        </div>
     </header>
     <main>
-       <div class="filme-principal">
-           <div class="container">
-               <h3 class="titulo">
-                Cobra Kai 
-               </h3>
-               <p class="descricao">
-                Esta sequência de Karate Kid pega 30 anos depois dos eventos do All Valley Karate
-                 Tournament de 1984 e encontra Johnny Lawrence em busca de redenção reabrindo o 
-                 infame dojo de karate Cobra Kai .
-               </p>
-               <div class="botoes">
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    Assistir Agora
-                </button>
-        
-                <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
-                    Mais Informações
-        
-                </button>
-               </div>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">
+                    Cobra Kai
+                </h3>
+                <p class="descricao">
+                    Esta sequência de Karate Kid pega 30 anos depois dos eventos do All Valley Karate
+                    Tournament de 1984 e encontra Johnny Lawrence em busca de redenção reabrindo o
+                    infame dojo de karate Cobra Kai .
+                </p>
+                <div class="botoes">
+                    <button type="button" onclick="Estado('video')" role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
 
-           </div>
-       
-       </div>
+                    </button>
+
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais Informações
+
+                    </button>
+                </div>
+
+                <div id="video" style="display:none">
+                  
+                   
+                    <i class="fas fa-window-close" onclick="Estado('video') "> Fechar</i>
+                    
+                    <iframe width="480" height="300"
+                        src="https://www.youtube.com/embed/mS6TbSvOcgs" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                 </div>
+                    
+
+    
+
+            </div>
+            <p class="populares">
+                Populares na Netflix
+            </p>
+        </div>
+
+
     </main>
+
     <div class="carrosel-filmes">
+
         <div class="owl-carousel owl-theme">
-           <div class="item"><img src="img/mini1.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini2.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini3.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini4.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini5.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini6.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini7.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini8.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini9.jpg" alt="" class="box-filme"></div>
-           <div class="item"><img src="img/mini10.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini1.jpg" alt="" class="box-filme "></div>
+            <div class="item"><img src="img/mini2.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini3.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini4.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini5.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini6.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini7.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini8.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini9.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini10.jpg" alt="" class="box-filme"></div>
+
+        </div>
+
+        <div>
+            <p>
+                Em Alta
+            </p>
+        </div>
+
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/mini1.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini2.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini3.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini4.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini5.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini6.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini7.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini8.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini9.jpg" alt="" class="box-filme"></div>
+            <div class="item"><img src="img/mini10.jpg" alt="" class="box-filme"></div>
 
         </div>
 
     </div>
 
+
+    <script>
+        function Estado(el) {
+            var display = document.getElementById(el).style.display;
+            if (display == "none")
+                document.getElementById(el).style.display = 'block';
+            else
+                document.getElementById(el).style.display = 'none';
+        }
+     </script>
+
     <script src="https://kit.fontawesome.com/381f931575.js" crossorigin="anonymous"></script>
-   <script src="js/owl/jquery.min.js"></script>  
-   <script src="js/owl/owl.carousel.min.js"></script>  
-   <script src="js/owl/main.js"></script>  
-  
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
 
 
 
-    
+
+
 </body>
-</html>
 
+</html>

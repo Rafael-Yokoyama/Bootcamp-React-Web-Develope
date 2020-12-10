@@ -23,7 +23,8 @@ header .container{
   
 }
 header .logo {
-    margin-left: 40px;
+    margin-left: 50px;
+  
     color: var(--red);
     font-family: 'Ariel', Times, serif;
     font-size: 40px;
@@ -61,8 +62,8 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left:45px;
-    padding-right:45px;
+    padding-left:40px;
+    padding-right:40px;
     
 
 
@@ -72,10 +73,12 @@ nav a:hover {
     align-items:center;
     justify-content:center;
     margin-bottom:30px;
+    padding-left:10px;
     font-size:19px;
     
 }
 .filme-principal .titulo{
+    padding-left:10px;
     margin-top:15%;
     font-size:65px;
     font-family: 'Trebuchet MS' 'Lucida Sans Unicode',sans-serif;
@@ -114,9 +117,46 @@ nav a:hover {
      height: 100%;
      display: block;
  }
+ .populares{
+   
+    margin-top: 80px;
+    margin-left: -30px;
+    padding-left:35px;
+
+ }
+  p {
+      font-size: 22px;
+      font-weight: bold;
+      padding-bottom:10px;
+      padding-left:45px;
+      
+  }
+  .carrosel-filmes{
+      
+    margin-bottom:60px ;
+}
 
 
+#video i {
+  
+    cursor:pointer;
+    position: absolute;
+    top:160px;
+    right:120px;
+}
+#video i:hover{
+    transition: 0.7s ease all;
 
+    border-top:1px solid white;
+    padding:8px
+}
+iframe{
+    position: absolute;
+    top:200px;
+    right:200px;
+}
+
+  
 
  /*responsividade*/
  @media screen and (max-width: 560px){
@@ -125,7 +165,20 @@ nav a:hover {
       font-size: 13px;
     }
 
-  
+  header .logo {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  iframe{
+     display:none;
+}
+#video i{
+    display:none;
+}
+bottom{
+    margin-bottom: 60px;
+}
+
     
 
  }
@@ -143,7 +196,8 @@ nav a:hover {
 
     .botao{
         width:250px;
-        margin-top:5px;
+        margin-top:6px;
+
     
     }
     .filme-principal .titulo{
@@ -156,7 +210,12 @@ nav a:hover {
     
        
     }
+    header .logo {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
 
+    
 }
 
 @media screen and (min-width:1000px){
